@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#D4D5D5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="#8E00FE"
+        android:text="@string/app_name"
+        android:textAlignment="viewStart"
+        android:textColor="#FEFEFE"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/buttonPassInteger"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A8C3C3"
+        android:text="@string/integer"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/buttonPassChar"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D4D5D5"
+        android:text="@string/character"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/double_value"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+</LinearLayout>
